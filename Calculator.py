@@ -1,18 +1,11 @@
-def add(x, y):
-   return (x + y)
-def subtract(x, y):
-   return (x - y)
+print("Enter 'x' for exit.");
+leng = input("Enter length of rectangle: ");
+if leng == 'x':
+    exit();
+else:
+    brea = input("Enter breadth of rectangle: ");
+    length = int(leng);
+    breadth = int(brea);
+    perimeter = (2*length) + (2*breadth);
+    print("\nPerimeter of Rectangle =", perimeter);
 
-def multiply(x, y):
-   return (x * y)
-
-def divide(x, y):
-   return (x / y)
-
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-
-print("The sum of x and y is: ",add(num1,num2))
-print("The product of x and y is: ",multiply(num1,num2))
-print("The quotient of x and y is: ",divide(num1,num2))
-print("The difference of x and y is: ",subtract(num1,num2))
